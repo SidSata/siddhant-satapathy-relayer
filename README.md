@@ -33,9 +33,11 @@ e.g.
 
 2. If RPC endpoint or SQlite DB path is invalid, the block-crawler exits gracefully.
 
-3. To reduce computational overhead assuming a read query heavy system, block volume totals are calculated during retrieval and are stored in the total_volume field.
+3. result.txt contains the result of Part (2) - highest volume block from '2024-01-01 00:00:00' to '2024-01-01 00:30:00'.
 
-4. Table schemas
+4. To reduce computational overhead assuming a read query heavy system, block volume totals are calculated during retrieval and are stored in the total_volume field.
+
+5. Table schemas
 
         blocks (
             hash TEXT PRIMARY KEY,
